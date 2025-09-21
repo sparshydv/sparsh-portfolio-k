@@ -1,0 +1,167 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "Title": "Mazaar - ecommerce Website",
+      "Description": "Mazaar is a full-stack MERN e-commerce platform designed for modern shoppers to browse and purchase products seamlessly. The app offers real-time product listing with advanced filtering options based on categories, price, and ratings. Users can manage their shopping cart, view responsive product pages at a glance, and track purchases with an integrated sustainability score.",
+      "Features": [
+        "Real-time product listings with category, price, and rating filters",
+      
+        "Responsive product pages optimized for mobile and desktop",
+        "Sustainability tracker providing eco-scores for purchased items",
+        
+        "Dynamic UI with optimized performance across devices",
+        "Hosted deployment ensuring accessibility anytime, anywhere"
+      ],
+      "Img": "/images/mazaar.png",
+      "Link": "https://mazzarr.netlify.app/",
+      "Github": "https://github.com/sparshydv/ecommerce_mazaarr",
+      "TechStack": [
+        "React",
+        "TailwindCSS",
+        "Netlify",
+        "owl-carousel",
+        "React-Router-Dom",
+        "HTHL5",
+        "CSS3",
+        "JavaScript"
+
+      ]
+    },
+    {
+      "id": "2",
+      "Title": "Dynamic Movie Search App",
+      "Description": "Dynamic Movie Search App is a web application that allows users to search for movies in real-time. Built with modern web technologies, it offers a seamless user experience with features like instant search results, movie details, and dynamic trending movie lists.",
+      "Features": [
+        "Search functionality for over a million movies across multiple languages",
+        "Real-time data fetching using the TMDB API with debounced search",
+        "Dynamic home page displaying top 20 trending movies",
+        "Live trending section based on user searches stored via Appwrite",
+        "Optimized API calls to prevent crashes and excessive billing",
+        "Clean and responsive UI for mobile and desktop compatibility",
+        "Lightweight architecture with Appwrite replacing a full backend"
+      ],
+      "Img": "/images/movie.png",
+      "Link": "https://dynamic1moviecenter.netlify.app/",
+      "Github": "https://github.com/sparshydv/dynamicMovieSearch",
+      "TechStack": [
+        "React.js",
+        "Tailwind CSS",
+        "Axios",
+        "TMDB API",
+        "Appwrite",
+        "Netlify",
+        "Vite"
+ 
+      ]
+    },
+    {
+      "id": "3",
+      "Title": "ScreenTime Tracker",
+      "Description": "ScreenTime Tracker is a web application designed to help users monitor and manage their screen time across various devices. The app provides insights into daily usage patterns, allows users to set limits on app usage, and offers personalized recommendations for reducing screen time. With a user-friendly interface and robust analytics, ScreenTime Tracker empowers users to take control of their digital habits.",
+      "Features": [
+        "Real-time screen time tracking via Chrome extension across websites",
+        "Centralized backend API for storing and managing user activity data",
+        "Interactive dashboard visualizing daily usage and app distribution",
+        "Productivity vs. distraction insights with clear categorization",
+        "Historical data view to analyze past screen habits and trends",
+        "Responsive and intuitive design for desktop users"
+      ],
+      "Img": "/images/screenTracker.png",
+      "Link": "https://github.com/sparshydv/screenTrackerHackAI",
+      "Github": "https://github.com/sparshydv/screenTrackerHackAI",
+      "TechStack": [
+        "Chrome Extension",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "TailwindCSS",
+        "OpenAI API",
+        "Docker",
+        "chart.js"
+      ]
+    },
+    {
+      "id": "4",
+      "Title": "AI-Mock Interview",
+      "Description": "AI-Mock Interview is an innovative application designed to help users prepare for job interviews using AI-driven simulations. The app offers a realistic interview experience with customizable questions, real-time feedback, and performance analytics. Users can practice common interview scenarios, receive tips for improvement, and track their progress over time. With a user-friendly interface and advanced AI capabilities, AI-Mock Interview empowers job seekers to build confidence and enhance their interview skills.",
+      "Features": [
+        "Customizable interview simulations with a wide range of questions",
+        "Real-time feedback on user responses and performance",
+        "Performance analytics to track progress and identify improvement areas",
+        "Rate and review community recipes",
+        "Save and manage favorite recipes",
+        "Detailed recipe pages with ingredients, step-by-step instructions, and nutrition information",
+        "Dark mode support for better user experience"
+
+      ],
+
+      "Img": "/images/aiInterview.png",
+      "Link": "https://github.com/sparshydv/voiceAI_Interview_Prep",
+      "Github": "https://github.com/sparshydv/voiceAI_Interview_Prep",
+      "TechStack": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+        "JWT Authentication",
+        "Vapi",
+        "Google API"
+      ]
+    },
+    
+    
+    {
+      "id": "6",
+      "Title": "Nike Clone",
+      "Description": "Nike Clone is a fully functional e-commerce application that replicates the core features of the Nike online store. Users can browse products, add them to their cart, and complete purchases using a secure checkout process. The app also includes user authentication, product reviews, and an admin dashboard for managing inventory and orders.",
+      "Features": [
+        "Real-time speech-to-text transcription",
+        "Automatic extraction of meeting details including date, time, and participants",
+        "Identification and tracking of action items with assignees and deadlines",
+        "Generation of structured meeting summaries including key points, decisions, and next steps",
+        "Easy sharing of meeting summaries via email",
+        "Voice-controlled commands for hands-free interaction",
+        "Integration with various APIs for enhanced processing"
+      ],
+      "Img": "/images/nike.png",
+      "Link": "https://sparshydv.github.io/Nike_Tailwind/",
+      "Github": "https://github.com/sparshydv/Nike_Tailwind",
+      "TechStack": [
+        "React Native",
+        "Gemini API",
+        "Google Cloud API",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "7",
+      "Title": "Amazon Clone",
+      "Description": "Amazon Clone is a fully functional e-commerce application that replicates the core features of the Amazon online store. Users can browse products, add them to their cart, and complete purchases using a secure checkout process. The app also includes user authentication, product reviews, and an admin dashboard for managing inventory and orders.",
+      "Features": [
+        "Real-time messaging with Socket.IO",
+        "Multiple chat rooms for different topics",
+        "User authentication and authorization",
+        "Responsive design for all devices",
+        "Mobile compatibility for on-the-go chatting",
+        "Contact form for user feedback"
+      ],
+      "Img": "/images/amazon.png",
+      "Link": "/",
+      "Github": "/",
+      "TechStack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "Socket.IO",
+        "MongoDB"
+      ]
+    }
+  ]
+}

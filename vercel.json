@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
+  "routes": [
+    { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
+    { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico))", "dest": "/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+} 
