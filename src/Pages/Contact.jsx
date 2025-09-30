@@ -28,6 +28,13 @@ const ContactPage = () => {
   };
 
   const handleSubmit = async (e) => {
+    const isLocalhost = window.location.hostname === "localhost";
+    if (!isLocalhost) {
+      // In production, allow the browser to POST the form natively to FormSubmit
+      return;
+    }
+
+    // Localhost: prevent default and simulate success
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -41,47 +48,22 @@ const ContactPage = () => {
     });
 
     try {
-      // Get form reference
-      const form = e.target;
-      
-      // For local development, handle submission manually
-      if (window.location.hostname === "localhost") {
-        // Show success message
-        await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate network delay
-        
-        Swal.fire({
-          title: "Success!",
-          text: "Your message has been sent successfully!",
-          icon: "success",
-          confirmButtonColor: "#6366f1",
-          timer: 1500,
-          timerProgressBar: true,
-        });
-        
-        // Reset form
-        setFormData({
-          name: "",
-          email: "",
-          message: "",
-        });
-        
-        // Redirect locally
-        setTimeout(() => {
-          window.location.href = "/thank-you";
-        }, 1500);
-        
-        return;
-      }
-      
-      // In production, submit the form normally with FormSubmit's _next parameter
-      form.submit();
-      
-      // The code below may not run in production as the form submission will redirect
-      setFormData({
-        name: "",
-        email: "",
-        message: "",
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      Swal.fire({
+        title: "Success!",
+        text: "Your message has been sent successfully!",
+        icon: "success",
+        confirmButtonColor: "#6366f1",
+        timer: 1500,
+        timerProgressBar: true,
       });
+
+      setFormData({ name: "", email: "", message: "" });
+
+      setTimeout(() => {
+        window.location.href = "/thank-you";
+      }, 1500);
     } catch (error) {
       Swal.fire({
         title: "Error!",
@@ -170,7 +152,7 @@ const ContactPage = () => {
     <input
       type="hidden"
       name="_next"
-      value="https://formsubmit.co/thank-you"
+      value="https://portfoliosparshh.netlify.app/thank-you"
 
     />
     <input

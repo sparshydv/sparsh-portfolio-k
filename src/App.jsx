@@ -38,7 +38,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               <span className="block text-sm text-gray-500 text-center">
                 Made with ❤️ by{" "}
                 <a
-                  href="https://krishna-nishant.vercel.app/"
+                  href="https://portfoliosparshh.netlify.app/"
                   className="hover:underline"
                 >
                   Sparsh
@@ -61,7 +61,7 @@ const ProjectPageLayout = () => (
         <span className="block text-sm text-gray-500 text-center">
           Made with ❤️ by{" "}
           <a
-            href="https://krishna-nishant.vercel.app/"
+            href="https://portfoliosparshh.netlify.app/"
             className="hover:underline"
           >
             Sparsh
