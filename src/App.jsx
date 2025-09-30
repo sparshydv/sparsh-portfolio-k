@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { SITE_URL } from "./config/site";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./Pages/Home";
@@ -38,7 +39,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               <span className="block text-sm text-gray-500 text-center">
                 Made with ❤️ by{" "}
                 <a
-                  href="https://portfoliosparshh.netlify.app/"
+                  href={SITE_URL + "/"}
                   className="hover:underline"
                 >
                   Sparsh
@@ -61,7 +62,7 @@ const ProjectPageLayout = () => (
         <span className="block text-sm text-gray-500 text-center">
           Made with ❤️ by{" "}
           <a
-            href="https://portfoliosparshh.netlify.app/"
+            href={SITE_URL + "/"}
             className="hover:underline"
           >
             Sparsh

@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { SITE_URL } from "../config/site";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Copy, Facebook, Twitter, Linkedin, LinkIcon } from "lucide-react";
 
 const ShareModal = ({ isOpen, onClose }) => {
   const modalRef = useRef(null);
-  const portfolioUrl = "https://portfoliosparshh.netlify.app/";
+  const portfolioUrl = SITE_URL + "/";
   const shareText =
     "Check out Sparsh's portfolio - a passionate developer specializing in web development!";
 

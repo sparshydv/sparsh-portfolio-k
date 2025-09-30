@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { SITE_URL } from "../config/site";
 import { User, Mail, MessageSquare, Send } from "lucide-react";
 import SocialLinks from "../components/SocialLinks";
 import Swal from "sweetalert2";
@@ -152,7 +153,7 @@ const ContactPage = () => {
     <input
       type="hidden"
       name="_next"
-      value="https://portfoliosparshh.netlify.app/thank-you"
+      value={`${SITE_URL}/thank-you`}
 
     />
     <input
