@@ -246,7 +246,7 @@ export default function Home() {
                   }`}
                 >
                   <DotLottieReact
-                    src="https://lottie.host/58753882-bb6a-49f5-a2c0-950eda1e135a/NLbpVqGegK.lottie"
+                    src="/logo/Coding.json"
                     loop={true}
                     autoplay={true}
                     style={{ width: "100%", height: "100%" }}
